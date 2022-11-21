@@ -2,3 +2,18 @@
 	max-width: 18rem;
 	text-align: center;
 }
+
+body{
+	background-color: whitesmoke;
+}
+
+#titulo{
+	text-align: center;
+}
+
+#container{
+	width: 100%;
+	background-color: white;
+	border: solid #A9A9A9 1px;
+	border-radius: 5px;
+}
