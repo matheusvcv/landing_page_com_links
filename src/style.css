@@ -23,7 +23,20 @@ body{
 	cursor: pointer;
 }
 
+
 .botao-cor-especial{
 	border: solid 1px #C0C0C0;
-
 }
+
+.botao-cor-especial::hover{
+	background-color: blue;
+	width: 100%;
+}
+
+.botao-cor-especial:hover{
+	width: 60%;
+	cursor: pointer;
+	background-color: #C0C0C0;
+	color: white;
+}
+
