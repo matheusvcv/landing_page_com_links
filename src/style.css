@@ -15,7 +15,7 @@ body{
 	width: 100%;
 	margin: 0 auto;
 	background-color: white;
-	border: solid #C0C0C0 1px;
+	border: solid #6495ED 1px;
 	border-radius: 8px;
 }
 
@@ -23,24 +23,29 @@ body{
 	cursor: pointer;
 }
 
+.link:hover{
+	background-color: #6495ED;
+	width: 100%;
+	color: white;
+}
 
 .botao-cor-especial{
-	border: solid 1px #C0C0C0;
+	border: solid 1px #6495ED;
+	background-color: whitesmoke;
 }
 
-.botao-cor-especial::hover{
-	background-color: blue;
-	width: 100%;
-}
+
 
 .botao-cor-especial:hover{
 	width: 60%;
 	cursor: pointer;
-	background-color: #C0C0C0;
-	color: white;
+	background-color: white;
+	color: blue;
+	text-decoration: underline;
 }
 
 .cor_nav_bar{
 	background-color: #6495ED;
+	color: white;
 }
 
