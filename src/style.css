@@ -5,6 +5,9 @@
 
 body{
 	background-image: url("../img/2.jpg");
+	/*background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left center;*/
 }
 
 #titulo{
@@ -25,7 +28,7 @@ body{
 
 .link:hover{
 	background-color: #6495ED;
-	width: 100%;
+	width: 105%;
 	color: white;
 }
 
