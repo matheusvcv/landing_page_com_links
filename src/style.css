@@ -38,7 +38,10 @@ body{
 	background-color: whitesmoke;
 }
 
-
+.footer{
+	background-color: #6495ED;
+	border: solid white 1px;
+}
 
 .botao-cor-especial:hover{
 	width: 60%;
