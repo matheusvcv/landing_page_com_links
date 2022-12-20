@@ -1,54 +1,20 @@
-.card-largura {
-	max-width: 18rem;
-	text-align: center;
+body{
+	background-attachment: fixed;
+	background-image: url("../img/pitneybowes_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-body{
-	background-image: url("../img/2.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	/*background-size: cover;
-	background-position: left center;*/
+#container{
+	background-color: white;
+	border-radius: 0;
+	border: solid #6495ED 1px;
+	margin: 0 auto;
+	width: 100%;
 }
 
 #titulo{
 	text-align: center;
-}
-
-#container{
-	width: 100%;
-	margin: 0 auto;
-	background-color: white;
-	border: solid #6495ED 1px;
-	border-radius: 8px;
-}
-
-.link{
-	cursor: pointer;
-}
-
-.link:hover{
-	background-color: #6495ED;
-	width: 105%;
-	color: white;
-}
-
-.botao-cor-especial{
-	border: solid 1px #6495ED;
-	background-color: whitesmoke;
-}
-
-.footer{
-	background-color: #6495ED;
-	border: solid white 1px;
-}
-
-.botao-cor-especial:hover{
-	width: 60%;
-	cursor: pointer;
-	background-color: white;
-	color: blue;
-	text-decoration: underline;
 }
 
 .cor_nav_bar{
@@ -56,3 +22,34 @@ body{
 	color: white;
 }
 
+.card-largura {
+	max-width: 18rem;
+	text-align: center;
+}
+
+.link{
+	cursor: default;
+}
+
+.link:hover{
+	background-color: #6495ED;
+	color: white;
+	width: 105%;
+}
+
+.botao-cor-especial{
+	background-color: whitesmoke;
+	border: solid 1px #6495ED;
+}
+
+.botao-cor-especial:hover{
+	background-color: white;
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+	width: 60%;
+}
+
+.footer{
+	background-color: #6495ED;
+}
