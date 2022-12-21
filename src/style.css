@@ -5,51 +5,87 @@ body{
 	background-size: cover;
 }
 
-#container{
-	background-color: white;
-	border-radius: 0;
-	border: solid #6495ED 1px;
-	margin: 0 auto;
-	width: 100%;
-}
-
 #titulo{
 	text-align: center;
 }
 
 .cor_nav_bar{
-	background-color: #6495ED;
+	background-color: #035aaa;
 	color: white;
+	height: 60;
+}
+
+.nav-text {
+	color: white;
+	font-family: Verdana, Helvetica, Arial;
+	font-size:20px;
+	margin: 0 auto;
+}
+
+.subtitulo{
+	color: white;
+	font-size: 18px;
+	padding: 15px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000, -1px 1px 1px #000;
 }
 
 .card-largura {
+	background-color: #f5f5f5;
+	border-radius: 15px;
+	border: solid 1px black;
+	height: 252px;
 	max-width: 18rem;
 	text-align: center;
+	position: relative;
 }
 
-.link{
-	cursor: default;
+.card-titulo{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
 }
 
-.link:hover{
-	background-color: #6495ED;
+.card-texto{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.card-link{
+	color: red;
+	font-family: 'Roboto', sans-serif;
+}
+
+.barra{
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	background-color: #035aaa;
 	color: white;
-	width: 105%;
+	max-width: 18rem;
+	padding: 10px;
 }
 
 .botao-cor-especial{
-	background-color: whitesmoke;
-	border: solid 1px #6495ED;
+	background-color: #f5f5f5;
+	border: solid 1px #000;
+	width: 16rem;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	text-align: center;
+	margin: auto 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .botao-cor-especial:hover{
-	background-color: white;
-	color: blue;
+	background-color: #035aaa;
+	color: white;
 	cursor: pointer;
-	text-decoration: underline;
-	width: 60%;
+	text-decoration: none;
 }
 
 .footer{
-	background-color: #6495ED;
+	background-color: #035aaa;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	height: 60px;
 }
