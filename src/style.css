@@ -1,6 +1,6 @@
 body{
-	background-attachment: fixed;
 	background-image: url("../img/pitneybowes_bg.jpg");
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -10,16 +10,22 @@ body{
 }
 
 .cor_nav_bar{
-	background-color: #035aaa;
+	background-image: linear-gradient(90deg, rgba(61,84,165,1) 0%, rgba(19,139,220,1) 100%);
 	color: white;
 	height: 60;
 }
 
+.logo{
+	margin-left: 18px;
+}
+
 .nav-text {
 	color: white;
-	font-family: Verdana, Helvetica, Arial;
-	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	font-weight: bold;
 	margin: 0 auto;
+	margin-right: 650px;
 }
 
 .subtitulo{
@@ -28,21 +34,24 @@ body{
 	padding: 15px;
 	text-align: center;
 	text-shadow: 1px 1px 1px #000, -1px 1px 1px #000;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .card-largura {
 	background-color: #f5f5f5;
 	border-radius: 15px;
-	border: solid 1px black;
-	height: 252px;
+	border: 0;
+	height: 244px;
 	max-width: 18rem;
 	text-align: center;
-	position: relative;
 }
 
 .card-titulo{
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .card-texto{
@@ -74,6 +83,7 @@ body{
 	margin: auto 0;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	padding: 2px;
 }
 
 .botao-cor-especial:hover{
@@ -84,8 +94,17 @@ body{
 }
 
 .footer{
-	background-color: #035aaa;
+	background-image: linear-gradient(90deg, rgba(61,84,165,1) 0%, rgba(19,139,220,1) 100%);
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+}
+
+.footer-text{
+	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	height: 60px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
 }
