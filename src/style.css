@@ -25,6 +25,13 @@ body{
 	height: 60;
 }
 
+.alinhamento-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+
 .logo{
 	margin-left: 18px;
 }
