@@ -123,6 +123,15 @@ body{
 	padding: 10px;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
 .horizontal{
 	width: 15%;
 	margin-left: auto;
@@ -190,13 +199,4 @@ body{
 	text-align: center;
 }
 
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-  background-color: whitesmoke;
-  padding: 20px 40px;
-  border: solid 1px black;
-  margin-top: 20px;
 }
