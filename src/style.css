@@ -28,6 +28,16 @@ body{
 	margin-bottom: 5vh;
 }
 
+.texto-link{
+	color: black;
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+
 .cor_nav_bar{
 	background-image: linear-gradient(90deg, rgba(61,84,165,1) 0%, rgba(19,139,220,1) 100%);
 	color: white;
